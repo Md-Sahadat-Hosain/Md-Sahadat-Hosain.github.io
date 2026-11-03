@@ -1,0 +1,277 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Sahadat Hosain | Faculty Portfolio</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --secondary: #0d9488;
+            --dark: #1f2937;
+            --light: #f9fafb;
+            --accent: #2563eb;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary), #3b82f6);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: 700;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.3rem;
+            opacity: 0.95;
+        }
+        .header-meta {
+            margin-top: 1rem;
+            font-size: 0.95rem;
+            opacity: 0.85;
+        }
+        .header-meta span {
+            margin: 0 10px;
+        }
+        nav {
+            background-color: var(--dark);
+            padding: 0.75rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.25rem;
+            display: inline-block;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: var(--secondary);
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        section {
+            background: white;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+            font-size: 1.75rem;
+        }
+        h3 {
+            color: var(--accent);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        .item {
+            margin-bottom: 1.5rem;
+            border-left: 3px solid #e5e7eb;
+            padding-left: 1rem;
+        }
+        .item-title {
+            font-weight: bold;
+            color: var(--dark);
+        }
+        .item-subtitle {
+            font-style: italic;
+            color: #4b5563;
+        }
+        .item-date {
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .social-links {
+            margin-top: 1.5rem;
+        }
+        .social-links a {
+            display: inline-block;
+            background: #e5e7eb;
+            color: var(--dark);
+            padding: 0.5rem 1rem;
+            margin: 0.25rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        .social-links a:hover {
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 2.5rem;
+            background-color: var(--dark);
+            color: white;
+            margin-top: 4rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Md. Sahadat Hosain</h1>
+        <p>Lecturer, Department of Governance and Development Studies</p>
+        <p style="font-size: 1.1rem; font-style: italic;">Bandarban University, Bangladesh</p>
+        <div class="header-meta">
+            <span>📍 Hall Office: Room No.103, B-block, BU Male Hall</span> | 
+            <span>📞 Call/WhatsApp: +8801961815583</span> | 
+            <span>✉️ Email: sahadatcuds@gmail.com</span>
+        </div>
+        <div class="social-links">
+            <a href="#" target="_blank">Google Scholar</a>
+            <a href="https://researchgate.net" target="_blank">ResearchGate</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">ORCiD</a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills & Service</a>
+    </nav>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a dedicated academic and researcher serving as a Lecturer in the Department of Governance and Development Studies at Bandarban University. Alongside my teaching commitments, I contribute as a Research Associate at the Center for Environmental Research and Technological Innovation (CERTI), and manage residential operations as Provost of Bandarban University Male Hall-01. My research centers heavily on public governance, sustainable development challenges, macroeconomics, and the circular economy in developing nations.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            
+            <h3>Academic & Administrative Appointments</h3>
+            <div class="item">
+                <div class="item-title">Lecturer</div>
+                <div class="item-subtitle">Department of Governance and Development Studies, Bandarban University</div>
+                <div class="item-date">Feb 2026 – Present</div>
+            </div>
+            <div class="item">
+                <div class="item-title">Provost</div>
+                <div class="item-subtitle">Bandarban University Male Hall-01</div>
+                <div class="item-date">June 14, 2026 – Present</div>
+            </div>
+            <div class="item">
+                <div class="item-title">Department Coordinator</div>
+                <div class="item-subtitle">Department of Governance and Development Studies, Bandarban University</div>
+                <div class="item-date">March 31, 2026 – April 12, 2026</div>
+            </div>
+
+            <h3>Research Positions</h3>
+            <div class="item">
+                <div class="item-title">Research Associate</div>
+                <div class="item-subtitle">Center for Environmental Research and Technological Innovation (CERTI), Bandarban University</div>
+                <div class="item-date">Oct 01, 2026 – Present</div>
+                <p style="margin: 0.25rem 0 0; font-size: 0.95rem; color:#4b5563;">Responsibilities: Data Analysis, Project Supervision, and Manuscript Preparation.</p>
+            </div>
+            <div class="item">
+                <div class="item-title">Editorial Assistant</div>
+                <div class="item-subtitle">Review of Economics, Finance & Business (REFB)</div>
+                <div class="item-date">01 Apr 2026 – Present</div>
+            </div>
+            <div class="item">
+                <div class="item-title">Research Assistant</div>
+                <div class="item-subtitle">University of Chittagong (Project with Chairman Mohammad Sohaib)</div>
+                <div class="item-date">Feb 13, 2022 – Dec 7, 2023</div>
+                <p style="margin: 0.25rem 0 0; font-size: 0.95rem; color:#4b5563;">Project: "Contribution of Informal Waste Pickers Toward Circular Economy in Bangladesh: Opportunities and Challenges for SDGs".</p>
+            </div>
+        </section>
+
+        <section id="publications">
+            <h2>Research & Publications</h2>
+            
+            <h3>Peer-Reviewed Journal Articles</h3>
+            <ul>
+                <li><strong>Uddin, M. S., Hamid, A. A., Hosain, M. S., et al. (2025).</strong> Trade policies and the shadow economy: The nexus of tariffs, non-tariff barriers and trade freedom in N-11 countries. <em>East Asian Economic Review</em>, 29(3), 271–302. <a href="https://doi.org" target="_blank">DOI Link</a></li>
+                <li><strong>Ali, A., Hosain, M. S., Siddik, M. A. B., et al. (2025).</strong> Classifying Internet Addiction Using Machine Learning Approach: A Study Among Adolescents in Bangladesh. <em>Public Health Challenges</em>, 4(4). <a href="https://doi.org" target="_blank">DOI Link</a></li>
+                <li><strong>Hosain, M. S., Chowdhury, S. B. K., Sohaib, M., & Ahmed, Z. (2024).</strong> Budget Deficit and Growth Nexus in Bangladesh: An ARDL Approach. <em>Bangladesh Journal of Integrated Thoughts</em>. <a href="https://doi.org" target="_blank">DOI Link</a></li>
+                <li><strong>Chowdhury, S. B. K., Hosain, M. S., Ahmed, Z., & Sohaib, M. (2024).</strong> Role of Budget Deficit on Real Economic Growth in Bangladesh: A Systematic Literature Review. <em>International Journal of Ethics in Social Sciences</em>, 8(2).</li>
+            </ul>
+
+            <h3>Op-Eds & Public Commentary</h3>
+            <ul>
+                <li>Hosain, M. S. (2026, May 16). "Smooth information flow can make development sustainable." <em>The Daily Star</em>. <a href="https://thedailystar.net" target="_blank">Author Page</a></li>
+Use code with caution.
+Ahmed, Z., & Hosain, M. S. (2026, July 11). "Informal Waste Pickers: The Unsung Heroes of Circular Economy and Sustainability in Bangladesh." The Daily New Nation.
+Manuscripts Under Review & Working Papers
+
+Sustainable Eco-tourism: A Case Study on Bhutan (Submitted to Springer Nature).
+Localizing the SDGs through Grassroots Education: A Youth-Led Volunteer Initiative in Chattogram, Bangladesh (Submitted to Wiley).
+Politically Manufactured Unemployability under Authoritarian Rule: Qualitative Evidence from Bangladesh (Submitted to Springer Nature).
+Evaluating Forest Conservation Policies and Practices for Sustainability in Bangladesh: A Systematic Literature Review (Working Paper).
+
+Education
+
+Master of Social Sciences (MSS) in Development Studies
+University of Chittagong, Bangladesh
+Stood Second (CGPA: 3.63)
+Report: Role of Volunteer Organizations to Promote SDGs: A Study on SDG Youth Forum
+
+
+Bachelor of Social Sciences (BSS) in Development Studies
+University of Chittagong, Bangladesh
+Stood Second (CGPA: 3.63)
+Thesis: Role of Budget Deficit on real economic growth in Bangladesh: An ARDL Approach
+
+Skills, Honors & Service
+Technical & Software Skills
+Proficient in: R Programming for Data Science, SPSS, STATA, EViews12, EndNote, Zotero, MS Office, Excel, Google Cloud.
+Honors & Awards
+
+University Scholarship for Academic Excellence in Honors Program (2024).
+University Genius Scholarship based on SSC & HSC Academic Excellence (2019-2023).
+Stood 1st in Public Speaking Competition, Islamic Foundation, Chattogram Division (2015).
+Community Leadership & Co-curriculars
+
+Founding President: Chattogram Bisshobiddaloy Abrette Songshod (CUAS) — launched national level public speaking and communication skills training programs.
+Founder: Kurkuta Probashe Kollan Songstha (2021) — established poverty alleviation frameworks, community microfinance interest-free models, and educational assistance.
+Volunteering: South Asian Voice for Children (SAVC) — led two literacy-focused street schools for marginalized communities.
+
+© 2026 Md. Sahadat Hosain. Faculty Portfolio Hosted on GitHub Pages.
+
